@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context=".SignUp_">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp"
+        android:padding="26dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="211dp"
+            android:layout_height="163dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logo1"
+            android:contentDescription="@string/register"
+            />
+
+        <EditText
+            android:id="@+id/emailcust"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:autofillHints="@string/email"
+            android:background="@color/kelabu"
+            android:drawableStart="@drawable/ic_action_email"
+            android:drawableLeft="@drawable/ic_action_email"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            tools:visibility="visible" />
+
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:autofillHints="@string/username"
+            android:background="@color/kelabu"
+            android:drawableStart="@drawable/ic_action_user"
+            android:drawableLeft="@drawable/ic_action_user"
+            android:ems="10"
+            android:hint="@string/username"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            tools:visibility="visible" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/kelabu"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:autofillHints="@string/password"
+            android:drawableLeft="@drawable/ic_action_password"
+            android:drawableStart="@drawable/ic_action_password"
+
+            />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/colorAccent"
+            android:text="@string/register"
+            android:textColor="@color/white" />
+
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+</androidx.drawerlayout.widget.DrawerLayout>
+

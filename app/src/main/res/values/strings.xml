@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="nophone">No phone</string>
+    <string name="email">Email</string>
+
+    <string name="edit_message">Edit</string>
+    <string name="button_send">Send</string>
+    <string name="my_string">Hello!</string>
+    <string name="my_string1">Forgot password?</string>
+    <string name="app_name">SSOAPP</string>
+    <string name="btn_login">Sign in</string>
+    <string name="btn_forgot_password">Forget password?</string>
+    <string name="btn_link_to_register">Register Here!</string>
+    <string name="mee">Mee</string>
+    <string name="nasi">Nasi</string>
+    <string name="minuman">Minuman</string>
+    <string name="sup">Sup/Tom yam</string>
+    <string name="nasigoreng">Nasi Goreng</string>
+
+    <string name="TextView">Text View</string>
+    <string name="price">RM 4.00</string>
+    <string name="price1">RM 4.00</string>
+    <string name="kt">Kuew Teow</string>
+    <string name="mg">Mee Goreng</string>
+    <string name="bt">Mee Menu</string>
+    <string name="scan">Scan Here</string>
+
+    <string name="todaysmenu">Menu for Today</string>
+    <string name="migoreng">Mee Goreng</string>
+    <string name="migorengpr">RM 3.50</string>
+    <string name="meerebus">Mee Rebus</string>
+    <string name="price2">RM 4.00</string>
+    <string name="add">Add</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_home1">home1</string>
+
+
+</resources>
